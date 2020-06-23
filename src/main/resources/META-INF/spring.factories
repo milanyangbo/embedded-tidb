@@ -1,0 +1,5 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+  com.playtika.test.tidb.EmbeddedTiDBBootstrapConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.playtika.test.tidb.EmbeddedTiDBDependenciesAutoConfiguration,\
+  com.playtika.test.tidb.EmbeddedTiDBTestOperationsAutoConfiguration
