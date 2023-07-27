@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T08:34:11.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xUiIyll94saaDPXhuXIp" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T08:35:16.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xtDVK8e-DrWYrkeQr098" version="21.5.0" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
     <mxGraphModel dx="1430" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -72,8 +72,14 @@
         <mxCell id="JlDAvxDnpA8wRkPDw7YP-33" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;栈帧&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="348.75" y="660" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="JlDAvxDnpA8wRkPDw7YP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JlDAvxDnpA8wRkPDw7YP-34" target="JlDAvxDnpA8wRkPDw7YP-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JlDAvxDnpA8wRkPDw7YP-34" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;ax&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="600" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JlDAvxDnpA8wRkPDw7YP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JlDAvxDnpA8wRkPDw7YP-35" target="JlDAvxDnpA8wRkPDw7YP-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JlDAvxDnpA8wRkPDw7YP-35" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;bx&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="620" width="60" height="20" as="geometry" />
@@ -97,6 +103,18 @@
         </mxCell>
         <mxCell id="JlDAvxDnpA8wRkPDw7YP-46" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;基于寄存器的指令集架构&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="430" width="163.75" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JlDAvxDnpA8wRkPDw7YP-48" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="467.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JlDAvxDnpA8wRkPDw7YP-49" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="467.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JlDAvxDnpA8wRkPDw7YP-50" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="467.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JlDAvxDnpA8wRkPDw7YP-53" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;寄存器&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="437.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
