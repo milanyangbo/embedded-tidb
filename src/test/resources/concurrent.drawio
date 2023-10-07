@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-07T13:23:23.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="frdDBcjGTF-mZ-bAYn-2" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-07T13:24:40.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="E3bzbtLcjXm4CK_bKRS_" version="22.0.4" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
     <mxGraphModel dx="2157" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2028,39 +2028,39 @@
           <mxGeometry x="-480" y="6375" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-81" value="cache a&lt;br&gt;4) (M-&amp;gt;S) int x =1&lt;br&gt;3) 同步cache b和Memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="6420" width="150" height="60" as="geometry" />
+          <mxGeometry x="-258.55" y="6425" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-82" value="CPU A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="6370" width="150" height="50" as="geometry" />
+          <mxGeometry x="-258.55" y="6375" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-83" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=block;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-175" y="6540" as="sourcePoint" />
-            <mxPoint x="-175.29999999999995" y="6480" as="targetPoint" />
+            <mxPoint x="-203.55" y="6545" as="sourcePoint" />
+            <mxPoint x="-203.84999999999997" y="6485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-84" value="2) bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="6540" width="350" height="35" as="geometry" />
+          <mxGeometry x="-258.55" y="6545" width="350" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-85" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=block;startFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="59.26" y="6540" as="sourcePoint" />
-            <mxPoint x="59.730000000000025" y="6480" as="targetPoint" />
+            <mxPoint x="30.709999999999997" y="6545" as="sourcePoint" />
+            <mxPoint x="31.180000000000025" y="6485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-86" value="Memory&lt;br&gt;4) int x = 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="6630" width="350" height="50" as="geometry" />
+          <mxGeometry x="-258.55" y="6635" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-87" value="cache a&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;1) (S-&amp;gt;M) int x =0&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color);&quot;&gt;4) int x = 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="6420" width="150" height="60" as="geometry" />
+          <mxGeometry x="-58.55" y="6425" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-88" value="CPU B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="6370" width="150" height="50" as="geometry" />
+          <mxGeometry x="-58.55" y="6375" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uyjMCc78YGU57skiEtta-90" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.514;entryY=0.013;entryDx=0;entryDy=0;startArrow=none;startFill=0;entryPerimeter=0;" edge="1" parent="1" target="uyjMCc78YGU57skiEtta-86">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-51.87" y="6575" as="sourcePoint" />
-            <mxPoint x="-51.43999999999999" y="6620" as="targetPoint" />
+            <mxPoint x="-80.42" y="6580" as="sourcePoint" />
+            <mxPoint x="-79.99" y="6625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
