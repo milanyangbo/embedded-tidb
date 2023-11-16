@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T10:28:23.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="aqzXThicHmVAwleiMpbq" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T10:29:20.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="u7UYoP4cjFwCGoxtd9SG" version="22.1.2" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
     <mxGraphModel dx="1930" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3479,8 +3479,8 @@
             <mxPoint x="-661.11" y="8625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mYub8_LAIGGAAAA2D_nz-6" value="Parameter&lt;br&gt;Space" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-611.46" y="8570" width="80" height="40" as="geometry" />
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-6" value="范围空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-606.46" y="8575" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mYub8_LAIGGAAAA2D_nz-7" value="&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; data-hash=&quot;6d4b23c88de40b6a04605c2fd0906520&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 11pt; line-height: 14.6667px;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;写放大&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-600.96" y="8480" width="70" height="40" as="geometry" />
@@ -3492,7 +3492,7 @@
           <mxGeometry x="-510" y="8625" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mYub8_LAIGGAAAA2D_nz-11" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;举例：&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;更多合并效果 =&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;增加写放大同时减少读放大&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="8540" width="170" height="40" as="geometry" />
+          <mxGeometry x="-782.99" y="8540" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mYub8_LAIGGAAAA2D_nz-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1750" y="7860" width="25" height="40" as="geometry" />
