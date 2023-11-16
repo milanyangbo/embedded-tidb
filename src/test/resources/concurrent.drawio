@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T03:58:01.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SApj1zABLjve4EM8d3-9" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T10:04:35.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RSHYcrE20wRRgCW00vCk" version="22.1.2" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="2924" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2735" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3460,6 +3460,39 @@
         </mxCell>
         <mxCell id="LCWnmgZcw6NSbkXvSkHZ-159" value="SSTable file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-90.5" y="8680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-2" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-810" y="8725" as="sourcePoint" />
+            <mxPoint x="-710" y="8625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-4" value="" style="shape=flexArrow;endArrow=none;startArrow=none;html=1;rounded=0;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-620" y="8730" as="sourcePoint" />
+            <mxPoint x="-706.99" y="8630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-5" value="" style="shape=flexArrow;endArrow=none;startArrow=none;html=1;rounded=0;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-633.11" y="8730" as="sourcePoint" />
+            <mxPoint x="-806.72" y="8730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-6" value="Parameter&lt;br&gt;Space" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-757.07" y="8675" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-7" value="&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; data-hash=&quot;6d4b23c88de40b6a04605c2fd0906520&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 11pt; line-height: 14.6667px;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;Write&amp;nbsp;Amplification&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-781.57" y="8585" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-8" value="&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; data-hash=&quot;6d4b23c88de40b6a04605c2fd0906520&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;div style=&quot;&quot; data-hash=&quot;aded2e922d4345d328ccc14790069ad2&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 11pt; line-height: 14.6667px;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;Read&amp;nbsp;Amplification&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="8730" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-9" value="&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; data-hash=&quot;6d4b23c88de40b6a04605c2fd0906520&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;div style=&quot;&quot; data-hash=&quot;aded2e922d4345d328ccc14790069ad2&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;div style=&quot;&quot; data-hash=&quot;744f9bc40d9f41cd739b6b7325e844ef&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot; class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 11pt; line-height: 14.6667px;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;Space&amp;nbsp;Amplification&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-685.61" y="8730" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYub8_LAIGGAAAA2D_nz-11" value="&lt;b&gt;Example&lt;/b&gt;: More compaction effort =&lt;br&gt;&amp;nbsp; &amp;nbsp;increased write amplification&lt;br&gt;and reduced read amplification" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="8625" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
