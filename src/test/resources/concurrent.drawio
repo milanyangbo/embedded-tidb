@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T05:06:27.922Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="59TQnjcC5kLhuz4NHI8C" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T05:10:51.247Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7L2WOZ5DV9VmYUt_evS9" version="22.1.3" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="2004" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1839" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4020,26 +4020,52 @@
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-21" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="597.25" y="9060.75" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-22" target="-RSRonoKJqjk3OA8ZKnM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-22" target="-RSRonoKJqjk3OA8ZKnM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-22" value="Log(日志)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="573.04" y="9088.75" width="95.86" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-26" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="476.43" y="9230" width="373.57" height="160" as="geometry" />
+          <mxGeometry x="435" y="9170" width="373.57" height="180" as="geometry" />
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-27" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="493.86" y="9243.13" width="146.14" height="25" as="geometry" />
+          <mxGeometry x="452.43" y="9183.13" width="146.14" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-28" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="493.86" y="9273.13" width="146.14" height="25" as="geometry" />
+          <mxGeometry x="452.43" y="9213.13" width="146.14" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-29" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="516.97" y="9283.88" width="40" height="30" as="geometry" />
+          <mxGeometry x="475.5400000000001" y="9223.88" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-30" target="-RSRonoKJqjk3OA8ZKnM-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="608.57" y="9250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-30" target="-RSRonoKJqjk3OA8ZKnM-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-30" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="492.76" y="9311.88" width="147.24" height="25" as="geometry" />
+          <mxGeometry x="451.33" y="9251.88" width="147.24" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-31" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="493.86" y="9345" width="146.14" height="25" as="geometry" />
+          <mxGeometry x="452.43" y="9285" width="146.14" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-32" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="643.8100000000001" y="9223.88" width="147.24" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-33" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="643.8100000000001" y="9251.88" width="147.24" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-34" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="644.95" y="9285" width="147.24" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-35" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="644.95" y="9315" width="147.24" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
