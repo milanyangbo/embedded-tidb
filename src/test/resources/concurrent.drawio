@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T05:10:51.247Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7L2WOZ5DV9VmYUt_evS9" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T05:11:56.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R0rWDvf-xpkIFoYInGCH" version="22.1.3" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
     <mxGraphModel dx="1839" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4056,15 +4056,15 @@
           <mxGeometry x="452.43" y="9285" width="146.14" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-32" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="643.8100000000001" y="9223.88" width="147.24" height="25" as="geometry" />
+          <mxGeometry x="643.81" y="9223.88" width="156.19" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="-RSRonoKJqjk3OA8ZKnM-33" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="643.8100000000001" y="9251.88" width="147.24" height="25" as="geometry" />
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-33" value=".index(偏移量索引文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="643.81" y="9251.88" width="156.19" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="-RSRonoKJqjk3OA8ZKnM-34" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="644.95" y="9285" width="147.24" height="25" as="geometry" />
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-34" value=".timeindex(时间戳索引文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="644.95" y="9285" width="155.05" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="-RSRonoKJqjk3OA8ZKnM-35" value=".log(日志文件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-35" value="其他文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="644.95" y="9315" width="147.24" height="25" as="geometry" />
         </mxCell>
       </root>
