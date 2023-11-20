@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T05:03:01.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uWOH9oi-ayKuZDGmbkaM" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T05:06:27.922Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="59TQnjcC5kLhuz4NHI8C" version="22.1.3" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="1839" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2004" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3975,6 +3975,12 @@
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-4" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="327.25000000000006" y="9040" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-6" target="-RSRonoKJqjk3OA8ZKnM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-6" target="-RSRonoKJqjk3OA8ZKnM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-6" value="Partition(分区)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="303.03999999999996" y="9068" width="95.86" height="25" as="geometry" />
         </mxCell>
@@ -3983,6 +3989,57 @@
         </mxCell>
         <mxCell id="-RSRonoKJqjk3OA8ZKnM-8" value="Partition(分区)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="303.03999999999996" y="9130" width="95.86" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-12" target="-RSRonoKJqjk3OA8ZKnM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-12" value="Partition(分区)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446.09999999999997" y="9020" width="95.86" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-13" target="-RSRonoKJqjk3OA8ZKnM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-13" value="Partition(分区)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446.09999999999997" y="9050" width="95.86" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-14" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="469.21000000000004" y="9060.75" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-RSRonoKJqjk3OA8ZKnM-15" target="-RSRonoKJqjk3OA8ZKnM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-15" value="Partition(分区)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444.99999999999994" y="9088.75" width="95.86" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-19" value="Log(日志)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574.1399999999999" y="9020" width="95.86" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-20" value="Log(日志)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574.1399999999999" y="9050" width="95.86" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-21" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="597.25" y="9060.75" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-22" value="Log(日志)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573.04" y="9088.75" width="95.86" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-26" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="476.43" y="9230" width="373.57" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-27" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493.86" y="9243.13" width="146.14" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-28" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493.86" y="9273.13" width="146.14" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-29" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516.97" y="9283.88" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-30" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.76" y="9311.88" width="147.24" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-RSRonoKJqjk3OA8ZKnM-31" value="LogSegment(日志分段)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493.86" y="9345" width="146.14" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
