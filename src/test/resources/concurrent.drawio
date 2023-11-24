@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T07:37:32.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XR-CpMIru5yrqZbI_qvX" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T07:41:51.009Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="fe3kMu9CQM2ebLAmlTtW" version="22.1.3" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="2764" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3883" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4910,6 +4910,15 @@
         </mxCell>
         <mxCell id="c4NRe7IiG6v-t-8opBTj-182" value="After Log Compaction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-755.31" y="11340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c4NRe7IiG6v-t-8opBTj-183" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-327.57" y="10665" width="152.55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4NRe7IiG6v-t-8opBTj-184" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-322.41" y="10660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c4NRe7IiG6v-t-8opBTj-185" value="156" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-245.48000000000002" y="10660" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
