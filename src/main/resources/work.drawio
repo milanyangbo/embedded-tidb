@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T11:44:59.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JVvkJ1t_wTRNKb4TbepV" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T11:53:50.920Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mbEA44Ujnb16x18VnRMO" version="22.1.8" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
-    <mxGraphModel dx="3428" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3774" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,13 +16,13 @@
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9JkG7-nkFBZPGrmJ6e62-3" target="9JkG7-nkFBZPGrmJ6e62-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9JkG7-nkFBZPGrmJ6e62-3" value="task表&lt;br&gt;是否存在20231213&lt;br&gt;的任务" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-3" value="Task表&lt;br&gt;是否存在20231213&lt;br&gt;的任务" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="385" y="127.53" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="9JkG7-nkFBZPGrmJ6e62-4" target="9JkG7-nkFBZPGrmJ6e62-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9JkG7-nkFBZPGrmJ6e62-4" value="创建task表&lt;br&gt;备份时间为20231213&lt;br&gt;的任务记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-4" value="创建Task表&lt;br&gt;备份时间为20231213&lt;br&gt;的任务记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="367.5" y="287.53" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-7" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -217,23 +217,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-1" value="获取库表a.b的备份日期&lt;br&gt;假设备份任务时间20231214&lt;br&gt;那么备份的分区文件日期是&lt;font color=&quot;#ea6b66&quot;&gt;&lt;b&gt;20231213（T-1）&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
-          <mxGeometry x="-735" y="40" width="260" height="60" as="geometry" />
+          <mxGeometry x="-885" y="50" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-3" target="yVIKYQYEI10mW0dex-vL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-3" target="yVIKYQYEI10mW0dex-vL-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-540" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yVIKYQYEI10mW0dex-vL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-3" target="yVIKYQYEI10mW0dex-vL-22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-410" y="310" as="targetPoint" />
+            <mxPoint x="-690" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-3" value="是否是分区表" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-655" y="140" width="100" height="100" as="geometry" />
+          <mxGeometry x="-805" y="150" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-4" target="yVIKYQYEI10mW0dex-vL-7">
           <mxGeometry relative="1" as="geometry" />
@@ -242,45 +237,48 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-4" value="是否是周一" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="255" width="100" height="100" as="geometry" />
+          <mxGeometry x="-940" y="265" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-7" value="获取备份日期&lt;br&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(234, 107, 102);&quot;&gt;20231213&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="405" width="100" height="40" as="geometry" />
+          <mxGeometry x="-940" y="415" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-9" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="165" width="40" height="30" as="geometry" />
+          <mxGeometry x="-860" y="175" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-11" value="&amp;nbsp;是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-750" y="360" width="40" height="30" as="geometry" />
+          <mxGeometry x="-900" y="370" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-12" value="1.退出备份任务&lt;br&gt;2.标记非周一不备份" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-970" y="285" width="130" height="40" as="geometry" />
+          <mxGeometry x="-1120" y="295" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-14" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-830" y="285" width="40" height="30" as="geometry" />
+          <mxGeometry x="-980" y="295" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-16" target="yVIKYQYEI10mW0dex-vL-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-16" target="yVIKYQYEI10mW0dex-vL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-16" value="是否存在&lt;br&gt;/a/b/p_2023121&lt;br&gt;分区目录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-655" y="290" width="100" height="100" as="geometry" />
+          <mxGeometry x="-805" y="300" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-17" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="250" width="40" height="30" as="geometry" />
+          <mxGeometry x="-760" y="260" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-19" value="获取备份日期&lt;br&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(234, 107, 102);&quot;&gt;20231213&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-655" y="430" width="100" height="40" as="geometry" />
+          <mxGeometry x="-805" y="450" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="390" width="40" height="30" as="geometry" />
+          <mxGeometry x="-760" y="400" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-22" target="yVIKYQYEI10mW0dex-vL-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-432.5" y="400" as="targetPoint" />
+            <mxPoint x="-578.75" y="430.53" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-22" value="遍历/a/b目录下的所有子目录" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="290" width="135" height="60" as="geometry" />
+          <mxGeometry x="-646.25" y="320.53" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-25" target="yVIKYQYEI10mW0dex-vL-26">
           <mxGeometry relative="1" as="geometry" />
@@ -289,92 +287,94 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-25" value="是否存在子目录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-482.5" y="390" width="100" height="100" as="geometry" />
+          <mxGeometry x="-628.75" y="420.53" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-26" value="1.退出备份任务&lt;br&gt;2.标记无法获取分区文件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="420" width="150" height="40" as="geometry" />
+          <mxGeometry x="-476.25" y="450.53" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-28" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-382.5" y="415" width="40" height="30" as="geometry" />
+          <mxGeometry x="-528.75" y="445.53" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-29" target="yVIKYQYEI10mW0dex-vL-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-29" value="获取离当前时间最近的&lt;br&gt;分区录&lt;br&gt;/a/b/p_20231113" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="530" width="135" height="60" as="geometry" />
+          <mxGeometry x="-646.25" y="560.53" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-30" value="注：假设/a/b下有两个分区目录：&lt;br&gt;/a/b/p_20231112&lt;br&gt;/a/b/p_20231113" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="525" width="170" height="70" as="geometry" />
+          <mxGeometry x="-486.25" y="555.53" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-32" target="yVIKYQYEI10mW0dex-vL-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-436.25" y="949.9999999999998" as="targetPoint" />
+            <mxPoint x="-582.5" y="980.5299999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yVIKYQYEI10mW0dex-vL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-32" target="yVIKYQYEI10mW0dex-vL-40">
+        <mxCell id="yVIKYQYEI10mW0dex-vL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-553.75" y="850" as="targetPoint" />
+            <mxPoint x="-705" y="850.53" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-32" value="比20231110&lt;br&gt;时间大" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-482.5" y="770" width="100" height="100" as="geometry" />
+          <mxGeometry x="-628.75" y="800.53" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-33" value="注：假设Task表有备份任务时间20231110" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-346.25" y="785" width="170" height="70" as="geometry" />
+          <mxGeometry x="-492.5" y="815.53" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-40" value="获取备份日期&lt;br&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(234, 107, 102);&quot;&gt;20231111-20231113&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-688.75" y="800" width="130" height="40" as="geometry" />
+          <mxGeometry x="-820" y="825.53" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-41" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-533.75" y="795" width="40" height="30" as="geometry" />
+          <mxGeometry x="-680" y="825.53" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-43" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-435" y="490" width="40" height="30" as="geometry" />
+          <mxGeometry x="-581.25" y="520.53" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-44" target="yVIKYQYEI10mW0dex-vL-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-436.25" y="763" as="sourcePoint" />
+            <mxPoint x="-582.5" y="793.53" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yVIKYQYEI10mW0dex-vL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-44" target="yVIKYQYEI10mW0dex-vL-47">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yVIKYQYEI10mW0dex-vL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-701.25" y="710.53" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-44" value="Task表没有历史备份任务记录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-482.5" y="630" width="100" height="100" as="geometry" />
+          <mxGeometry x="-628.75" y="660.53" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-47" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;获取备份日期&lt;/span&gt;&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(234, 107, 102); text-align: left;&quot;&gt;20231213&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-645" y="655" width="90" height="50" as="geometry" />
+          <mxGeometry x="-785" y="687.53" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-50" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="650" width="40" height="30" as="geometry" />
+          <mxGeometry x="-676.25" y="680.53" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-51" value="&amp;nbsp;否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-445" y="730" width="40" height="30" as="geometry" />
+          <mxGeometry x="-591.25" y="760.53" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yVIKYQYEI10mW0dex-vL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-52" target="yVIKYQYEI10mW0dex-vL-56">
+        <mxCell id="yVIKYQYEI10mW0dex-vL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-543.75" y="974.9999999999998" as="targetPoint" />
+            <mxPoint x="-705" y="1005.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-553.75" y="975" />
-              <mxPoint x="-553.75" y="975" />
+              <mxPoint x="-700" y="1005.53" />
+              <mxPoint x="-700" y="1005.53" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-52" value="比20231115&lt;br&gt;时间小" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-482.5" y="915" width="100" height="100" as="geometry" />
+          <mxGeometry x="-628.75" y="945.53" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-53" value="注：假设Task表有备份任务时间20231115" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-346.25" y="930" width="170" height="70" as="geometry" />
+          <mxGeometry x="-492.5" y="960.53" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-54" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-445" y="880" width="40" height="30" as="geometry" />
+          <mxGeometry x="-591.25" y="910.53" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-56" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;获取备份日期&lt;/span&gt;&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(234, 107, 102);&quot;&gt;20231113-20231114&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-683.75" y="950" width="125" height="50" as="geometry" />
+          <mxGeometry x="-820" y="980.53" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-57" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-533.75" y="950" width="40" height="30" as="geometry" />
+          <mxGeometry x="-680" y="980.53" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-47" target="yVIKYQYEI10mW0dex-vL-47">
           <mxGeometry relative="1" as="geometry" />
@@ -384,6 +384,33 @@
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-63" value="注：如果是非分区表遍历/a/b/default目录下的所有文件" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="630" y="617.53" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-65" target="yVIKYQYEI10mW0dex-vL-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-65" value="更新历史备份数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-68" target="yVIKYQYEI10mW0dex-vL-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-68" value="遍历Task任务表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="992.5" y="137.99999999999997" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-69" target="yVIKYQYEI10mW0dex-vL-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-69" value="是否是分区表" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="237.52999999999997" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-71" value="不执行逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="272.53000000000003" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-73" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="260" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-79" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="325" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
