@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T03:52:29.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OSh6uybhdoPyRjHj1ttF" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T03:57:03.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KEH7Cd-BcjgQphxqP-Cv" version="22.1.8" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
     <mxGraphModel dx="2284" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-2" target="9JkG7-nkFBZPGrmJ6e62-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9JkG7-nkFBZPGrmJ6e62-2" value="假如备份p_20231213分区数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="90" width="190" height="30" as="geometry" />
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-2" value="假如备份库表a.b的p_20231213分区数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-3" target="9JkG7-nkFBZPGrmJ6e62-4">
           <mxGeometry relative="1" as="geometry" />
@@ -19,6 +19,9 @@
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-3" value="task表&lt;br&gt;是否存在20231213&lt;br&gt;的任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="160" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-4" target="9JkG7-nkFBZPGrmJ6e62-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-4" value="创建task表&lt;br&gt;备份时间为20231213&lt;br&gt;的任务记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="347.5" y="320" width="135" height="60" as="geometry" />
         </mxCell>
@@ -28,11 +31,23 @@
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-10" target="9JkG7-nkFBZPGrmJ6e62-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-10" target="9JkG7-nkFBZPGrmJ6e62-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-10" value="备份任务&lt;br&gt;是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="160" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-12" value="直接退出备份任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="195" width="120" height="30" as="geometry" />
+          <mxGeometry x="-20" y="195" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-14" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-15" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="188" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-16" value="判断库表&lt;br&gt;a.b的&lt;br&gt;hdfs文件&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
