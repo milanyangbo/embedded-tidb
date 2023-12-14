@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T06:45:24.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dCgTAReBmrmho-ad59mV" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T06:50:04.065Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="d8zJgNORsxC5VlCJvnao" version="22.1.8" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
-    <mxGraphModel dx="2311" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3334" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,13 +58,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-16" value="判断库表&lt;br&gt;a.b的&lt;br&gt;hdfs文件&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="440" width="100" height="100" as="geometry" />
+          <mxGeometry x="220" y="420" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-19" value="1.退出备份任务&lt;br&gt;2.标记不存在hdfs文件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="470" width="140" height="40" as="geometry" />
+          <mxGeometry x="-10" y="450" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-21" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="470" width="60" height="30" as="geometry" />
+          <mxGeometry x="140" y="450" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-22" target="9JkG7-nkFBZPGrmJ6e62-25">
           <mxGeometry relative="1" as="geometry" />
@@ -73,63 +73,63 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-22" value="判断存在&lt;br&gt;/a/b/p_20231213&lt;br&gt;的分区目录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="600" width="100" height="100" as="geometry" />
+          <mxGeometry x="220" y="580" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-25" value="1.退出备份任务&lt;br&gt;2.标记不存在p_20231213&lt;br&gt;&amp;nbsp; &amp;nbsp;分区目录" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="620" width="160" height="60" as="geometry" />
+          <mxGeometry x="-10" y="600" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-28" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="628" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="608" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-30" target="9JkG7-nkFBZPGrmJ6e62-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-30" value="遍历/a/b/p_20231213分区目录下的所有文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="202.5" y="760" width="135" height="60" as="geometry" />
+          <mxGeometry x="202.5" y="740" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-32" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="708" width="50" height="30" as="geometry" />
+          <mxGeometry x="260" y="688" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-33" target="9JkG7-nkFBZPGrmJ6e62-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-33" value="是否遍历完" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="860" width="100" height="100" as="geometry" />
+          <mxGeometry x="220" y="840" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-38" value="注：假设当前分区目录有两个hdfs文件：&lt;br&gt;/a/b/p_20231213/001.orcf&lt;br&gt;/a/b/p_20231213/002.orcf" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="420" y="755" width="170" height="70" as="geometry" />
+          <mxGeometry x="420" y="735" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-40" value="注：通过判断读取的buf.len==FileStatus.length，一致说明获取的hdfs文件没顺坏&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1045" width="150" height="70" as="geometry" />
+          <mxGeometry x="420" y="1025" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-42" value="遍历完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="880" width="60" height="30" as="geometry" />
+          <mxGeometry x="140" y="860" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-43" value="1.退出备份任务&lt;br&gt;2.标记备份成功" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry y="890" width="110" height="40" as="geometry" />
+          <mxGeometry y="870" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="1080" as="targetPoint" />
+            <mxPoint x="150" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-45" target="9JkG7-nkFBZPGrmJ6e62-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-45" value="判断orcf文件&lt;br&gt;的获取&lt;br&gt;是否不一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1030" width="100" height="100" as="geometry" />
+          <mxGeometry x="220" y="1010" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-46" value="不一致" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="155" y="1060" width="60" height="30" as="geometry" />
+          <mxGeometry x="155" y="1040" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-47" value="1.退出备份任务&lt;br&gt;2.标记读取hdfs文件失败" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry y="1060" width="150" height="40" as="geometry" />
+          <mxGeometry y="1040" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-33" target="9JkG7-nkFBZPGrmJ6e62-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-51" value="未遍历完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="978" width="70" height="30" as="geometry" />
+          <mxGeometry x="260" y="958" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-52" target="9JkG7-nkFBZPGrmJ6e62-55">
           <mxGeometry relative="1" as="geometry" />
@@ -137,31 +137,31 @@
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-52" target="9JkG7-nkFBZPGrmJ6e62-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390" y="1260" />
-              <mxPoint x="390" y="790" />
+              <mxPoint x="390" y="1240" />
+              <mxPoint x="390" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-52" value="上传cos备份是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1210" width="100" height="100" as="geometry" />
+          <mxGeometry x="220" y="1190" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-54" value="一致" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1150" width="50" height="30" as="geometry" />
+          <mxGeometry x="260" y="1130" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-55" value="1.退出备份任务&lt;br&gt;2.标记上传cos失败" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry y="1240" width="120" height="40" as="geometry" />
+          <mxGeometry y="1220" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-57" value="失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1228" width="50" height="30" as="geometry" />
+          <mxGeometry x="150" y="1208" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-60" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1228" width="50" height="30" as="geometry" />
+          <mxGeometry x="330" y="1208" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-61" value="失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="290" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-62" value="注：通过添加Header：x-cos-meta-md5 来判断上传到cos的数据，没有顺坏" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1220" width="150" height="70" as="geometry" />
+          <mxGeometry x="420" y="1200" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
