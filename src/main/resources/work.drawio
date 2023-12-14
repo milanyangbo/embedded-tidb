@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T04:06:48.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1ajMZ-Y1uSiXd4v76FPf" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T06:31:26.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GZ0BhBAIm-Z-66g7V2f0" version="22.1.8" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
     <mxGraphModel dx="2284" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,11 +81,31 @@
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-28" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="628" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-30" target="9JkG7-nkFBZPGrmJ6e62-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-30" value="遍历/a/b/p_20231213分区目录下的所有文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="202.5" y="760" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-32" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="708" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-33" value="判断orcf文件&lt;br&gt;的获取&lt;br&gt;是否不一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="860" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-38" value="注：假设当前分区目录有两个hdfs文件：&lt;br&gt;/a/b/p_20231213/001.orcf&lt;br&gt;/a/b/p_20231213/002.orcf" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="465" y="760" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-40" value="注：通过判断读取的buf.len==FileStatus.length，一致说明获取的hdfs文件没顺坏&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="465" y="875" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-42" value="不一致" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="890" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
