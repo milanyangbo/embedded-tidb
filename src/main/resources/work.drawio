@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T06:36:16.015Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WAl5mawYg95OCBkcCevK" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T06:36:39.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1_C2N6R81RB-L2_ZoBf6" version="22.1.8" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
-    <mxGraphModel dx="1581" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2403" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,10 +97,10 @@
           <mxGeometry x="220" y="860" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-38" value="注：假设当前分区目录有两个hdfs文件：&lt;br&gt;/a/b/p_20231213/001.orcf&lt;br&gt;/a/b/p_20231213/002.orcf" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="720" y="770" width="170" height="70" as="geometry" />
+          <mxGeometry x="380" y="755" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-40" value="注：通过判断读取的buf.len==FileStatus.length，一致说明获取的hdfs文件没顺坏&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="720" y="885" width="150" height="70" as="geometry" />
+          <mxGeometry x="380" y="1045" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-42" value="遍历完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="880" width="60" height="30" as="geometry" />
