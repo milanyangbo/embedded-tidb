@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T08:43:50.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BgasLaE-u_BxdbL9ecmG" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T08:58:54.750Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KTTCvr53I-8z7ZIEm4Wj" version="22.1.8" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
     <mxGraphModel dx="3628" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -300,11 +300,40 @@
         <mxCell id="yVIKYQYEI10mW0dex-vL-28" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-382.5" y="415" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-29" target="yVIKYQYEI10mW0dex-vL-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-29" value="获取离当前时间最近的&lt;br&gt;分区录&lt;br&gt;/a/b/p_20231113" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="543" width="135" height="60" as="geometry" />
+          <mxGeometry x="-500" y="530" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yVIKYQYEI10mW0dex-vL-30" value="注：假设/a/b下有两个分区目录：&lt;br&gt;/a/b/p_20231112&lt;br&gt;/a/b/p_20231113" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="533" width="170" height="70" as="geometry" />
+          <mxGeometry x="-340" y="525" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-32" target="yVIKYQYEI10mW0dex-vL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yVIKYQYEI10mW0dex-vL-32" target="yVIKYQYEI10mW0dex-vL-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-550" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-32" value="与历史任务对比最新的备份时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-482.5" y="630" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-33" value="注：假设Task表有备份任务时间20231110" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="650" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-36" value="获取备份日期&lt;br&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(234, 107, 102); text-align: left;&quot;&gt;20231213&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-482.5" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-38" value="比历史小" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-435" y="740" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-40" value="获取备份日期&lt;br&gt;&lt;b style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(234, 107, 102); text-align: left;&quot;&gt;20231111-20231113&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="660" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yVIKYQYEI10mW0dex-vL-41" value="比历史的大" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="650" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
