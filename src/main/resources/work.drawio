@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T03:57:03.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KEH7Cd-BcjgQphxqP-Cv" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T04:03:06.221Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Z4983E9D19u9kvsYUytp" version="22.1.8" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
     <mxGraphModel dx="2284" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,8 +46,46 @@
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-15" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="188" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-16" target="9JkG7-nkFBZPGrmJ6e62-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-16" target="9JkG7-nkFBZPGrmJ6e62-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-24" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9JkG7-nkFBZPGrmJ6e62-23">
+          <mxGeometry x="-0.4" y="8" relative="1" as="geometry">
+            <mxPoint x="12" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9JkG7-nkFBZPGrmJ6e62-16" value="判断库表&lt;br&gt;a.b的&lt;br&gt;hdfs文件&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-19" value="1.退出备份任务&lt;br&gt;2.标记hdfs文件不存在" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-21" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-22" target="9JkG7-nkFBZPGrmJ6e62-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JkG7-nkFBZPGrmJ6e62-22" target="9JkG7-nkFBZPGrmJ6e62-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-22" value="判断存在&lt;br&gt;/a/b/p_20231213&lt;br&gt;的分区目录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-25" value="1.退出备份任务&lt;br&gt;2.不存在p_20231213&lt;br&gt;&amp;nbsp; &amp;nbsp;分区目录" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-28" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="628" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-30" value="遍历/a/b/p_20231213分区目录下的所有文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="760" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JkG7-nkFBZPGrmJ6e62-32" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="708" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
