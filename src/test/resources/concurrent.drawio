@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T08:46:44.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BHTjDtF0jBXh1SIgZlr5" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:47:31.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9G-o9ao02VWj_hCRbwgR" version="22.1.11" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
     <mxGraphModel dx="3774" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6584,7 +6584,7 @@
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-122" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3）节点C与节点B通信，判断节点B状态为ProbablyFail，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 将信息同步给节点A&lt;/font&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0);&quot; data-hash=&quot;4085f2eac2e60c804984fda581b88b69&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="556.9999999999999" y="12140" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-123" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;4）节点A与节点C，都判断节点B状态为ProbablyFail，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 满足大部分原则，将节点B状态改成Fail&lt;/font&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0);&quot; data-hash=&quot;4085f2eac2e60c804984fda581b88b69&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-123" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;4）节点A与节点C，都判断节点B状态为ProbablyFail，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 满足大多数原则，将节点B状态改成Fail&lt;/font&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0);&quot; data-hash=&quot;4085f2eac2e60c804984fda581b88b69&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="980.44" y="12140" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
