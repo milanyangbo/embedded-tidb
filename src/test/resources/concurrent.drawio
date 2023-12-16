@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T08:45:37.643Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BNWvR4Affp02HNvplgBv" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:46:44.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BHTjDtF0jBXh1SIgZlr5" version="22.1.11" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="4663" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3774" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6513,79 +6513,79 @@
           <mxGeometry x="1230.4399999999996" y="12050" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-102" value="A节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="706.9599999999999" y="12167.5" width="75" height="75" as="geometry" />
+          <mxGeometry x="704.2099999999999" y="12187.5" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-103" value="C节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="784.2499999999999" y="12292.5" width="75" height="75" as="geometry" />
+          <mxGeometry x="781.4999999999999" y="12312.5" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-104" value="B节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="624.2099999999999" y="12292.5" width="75" height="75" as="geometry" />
+          <mxGeometry x="621.4599999999999" y="12312.5" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-105" value="[A:S B:PF C:S]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="617.5" y="12180" width="100" height="30" as="geometry" />
+          <mxGeometry x="614.75" y="12200" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820.8200000000005" y="12287.5" as="sourcePoint" />
-            <mxPoint x="782.8200000000005" y="12225.5" as="targetPoint" />
+            <mxPoint x="818.0700000000005" y="12307.5" as="sourcePoint" />
+            <mxPoint x="780.0700000000005" y="12245.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="809.0800000000023" y="12295" as="sourcePoint" />
-            <mxPoint x="771.0800000000023" y="12233" as="targetPoint" />
+            <mxPoint x="806.3300000000023" y="12315" as="sourcePoint" />
+            <mxPoint x="768.3300000000023" y="12253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-109" value="" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.crushers_grinding.crushing,_grinding_machine;" vertex="1" parent="1">
-          <mxGeometry x="643.5300000000001" y="12342.5" width="34.93" height="15" as="geometry" />
+          <mxGeometry x="640.7800000000001" y="12362.5" width="34.93" height="15" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-110" value="[A:S B:PF C:S]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="868.9599999999997" y="12307.5" width="100" height="30" as="geometry" />
+          <mxGeometry x="866.2099999999997" y="12327.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-111" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="703.3900000000021" y="12331.67" as="sourcePoint" />
-            <mxPoint x="781.9599999999999" y="12332.17" as="targetPoint" />
+            <mxPoint x="700.6400000000021" y="12351.67" as="sourcePoint" />
+            <mxPoint x="779.2099999999999" y="12352.17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-112" value="A节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1091.72" y="12170" width="75" height="75" as="geometry" />
+          <mxGeometry x="1088.97" y="12190" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-113" value="C节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1169.01" y="12295" width="75" height="75" as="geometry" />
+          <mxGeometry x="1166.26" y="12315" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-114" value="B节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1008.9699999999999" y="12295" width="75" height="75" as="geometry" />
+          <mxGeometry x="1006.2199999999999" y="12315" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-115" value="[A:S B:F C:S]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1002.26" y="12182.5" width="90" height="30" as="geometry" />
+          <mxGeometry x="999.51" y="12202.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-116" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1205.5800000000006" y="12290" as="sourcePoint" />
-            <mxPoint x="1167.5800000000006" y="12228" as="targetPoint" />
+            <mxPoint x="1202.8300000000006" y="12310" as="sourcePoint" />
+            <mxPoint x="1164.8300000000006" y="12248" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-117" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1193.8400000000022" y="12297.5" as="sourcePoint" />
-            <mxPoint x="1155.8400000000022" y="12235.5" as="targetPoint" />
+            <mxPoint x="1191.0900000000022" y="12317.5" as="sourcePoint" />
+            <mxPoint x="1153.0900000000022" y="12255.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-118" value="" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.crushers_grinding.crushing,_grinding_machine;" vertex="1" parent="1">
-          <mxGeometry x="1028.2900000000002" y="12345" width="34.93" height="15" as="geometry" />
+          <mxGeometry x="1025.5400000000002" y="12365" width="34.93" height="15" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-119" value="[A:S B:F C:S]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1255.2399999999996" y="12315" width="90" height="30" as="geometry" />
+          <mxGeometry x="1252.4899999999996" y="12335" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-121" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;2）节点A与节点B通信，判断节点B状态为ProbablyFail，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 将信息同步给节点C&lt;/font&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0);&quot; data-hash=&quot;4085f2eac2e60c804984fda581b88b69&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="980.7399999999999" y="11850" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-122" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3）节点C与节点B通信，判断节点B状态为ProbablyFail，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 将信息同步给节点A&lt;/font&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0);&quot; data-hash=&quot;4085f2eac2e60c804984fda581b88b69&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="559.7499999999999" y="12120" width="380" height="50" as="geometry" />
+          <mxGeometry x="556.9999999999999" y="12140" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DTQ-wjU5Dp6W_F7EO8Pl-123" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;4）节点A与节点C，都判断节点B状态为ProbablyFail，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 满足大部分原则，将节点B状态改成Fail&lt;/font&gt;&lt;div style=&quot;caret-color: rgb(0, 0, 0);&quot; data-hash=&quot;4085f2eac2e60c804984fda581b88b69&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="983.19" y="12120" width="360" height="50" as="geometry" />
+          <mxGeometry x="980.44" y="12140" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
