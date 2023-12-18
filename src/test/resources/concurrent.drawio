@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T04:08:03.655Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Zq3Icf51YbnhFxSDkPoY" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T06:13:29.376Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ONqCpEeBlRQC3gxekqcU" version="22.1.11" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
     <mxGraphModel dx="3293" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6667,8 +6667,8 @@
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-37" value="" style="endArrow=none;html=1;rounded=0;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="578.1899999999999" y="12855" as="sourcePoint" />
-            <mxPoint x="308" y="13090" as="targetPoint" />
+            <mxPoint x="530" y="12850" as="sourcePoint" />
+            <mxPoint x="309.21" y="13033" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-38" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -6684,43 +6684,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-41" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="592.2299999999999" y="12843.5" width="51.32" height="35" as="geometry" />
+          <mxGeometry x="567.5899999999999" y="12845" width="51.32" height="35" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="589.88" y="12888.5" width="58.86" height="25" as="geometry" />
+          <mxGeometry x="565.24" y="12890" width="58.86" height="25" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="589.8799999999999" y="12928.5" width="58.86" height="25" as="geometry" />
+          <mxGeometry x="565.2399999999999" y="12930" width="58.86" height="25" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-44" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;startFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="587.5999999999999" y="12978.5" as="sourcePoint" />
-            <mxPoint x="648.7399999999999" y="12978.56" as="targetPoint" />
+            <mxPoint x="562.9599999999999" y="12980" as="sourcePoint" />
+            <mxPoint x="624.0999999999999" y="12980.06" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-45" value="" style="endArrow=none;html=1;rounded=0;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="645.9499999999999" y="12999.5" as="sourcePoint" />
-            <mxPoint x="595.9499999999999" y="13028.5" as="targetPoint" />
+            <mxPoint x="621.31" y="13001" as="sourcePoint" />
+            <mxPoint x="571.31" y="13030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-46" value="带存储的状态节点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="662.7599999999999" y="12846" width="120" height="30" as="geometry" />
+          <mxGeometry x="638.1199999999999" y="12847.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-47" value="无状态节点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="662.7599999999999" y="12883.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="638.1199999999999" y="12885" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-48" value="宕机节点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="659.8799999999999" y="12928.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="635.2399999999999" y="12930" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-49" value="网络通信" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660.6599999999999" y="12958.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="636.0199999999999" y="12960" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-50" value="完全网络分化界限" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="659.8699999999999" y="12988.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="635.2299999999999" y="12990" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-51" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;图例&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="655.46" y="12806.5" width="50" height="30" as="geometry" />
+          <mxGeometry x="630.82" y="12808" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TD4Ggbf_CnA7xX5zXdy-52" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;分布式系统模型&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="217.62000000000003" y="12760" width="130" height="30" as="geometry" />
