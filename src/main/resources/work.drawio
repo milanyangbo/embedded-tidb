@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T06:45:41.024Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WV6XcBmwHx7Gg5M69Ys2" version="22.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T02:52:14.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PD9-8BaQ4fvnZDUZDg4P" version="22.1.11" type="github">
   <diagram name="Page-1" id="mlTP5GkgayAPcvq2FMzZ">
-    <mxGraphModel dx="5249" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3774" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,11 +446,32 @@
         <mxCell id="yVIKYQYEI10mW0dex-vL-96" value="进行重新备份" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="770" y="537.9599999999999" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o04CmZyD3N1RfM3WWYAH-1" value="补上task表遗漏的备份任务" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+        <mxCell id="o04CmZyD3N1RfM3WWYAH-1" value="补上task表遗漏的备份任务" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cdeb8b;" parent="1" vertex="1">
           <mxGeometry x="1160" y="77.95999999999998" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o04CmZyD3N1RfM3WWYAH-3" value="注：假设存在库表a.b。task表有备份任务20231210 和20231215，那么需要新增备份任务20231211-20231214" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="o04CmZyD3N1RfM3WWYAH-3" value="注：假设存在库表a.b。task表有备份任务20231210 和20231215，那么需要新增备份任务20231211-20231214" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1110" y="145.96" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SND7qP74AEin1wyXDzC1-1" value="源数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="665.5300000000001" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SND7qP74AEin1wyXDzC1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SND7qP74AEin1wyXDzC1-2" target="SND7qP74AEin1wyXDzC1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SND7qP74AEin1wyXDzC1-2" value="目标数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1420" y="661" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SND7qP74AEin1wyXDzC1-3" value="COS冷备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="661" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SND7qP74AEin1wyXDzC1-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="SND7qP74AEin1wyXDzC1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1550" y="690" as="sourcePoint" />
+            <mxPoint x="-1470" y="695.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SND7qP74AEin1wyXDzC1-6" value="DTS全量迁移" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1545" y="657.53" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
