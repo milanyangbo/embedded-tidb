@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:25:51.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8zupISFpcGJnqV5R98P-" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T11:52:59.596Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3Qi1ldDNax5vZuMiHgWR" version="23.1.6" type="github">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="3134" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2883" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8397,6 +8397,78 @@
         </mxCell>
         <mxCell id="eGUk3opsdxtvZnBG_oee-10" value="R" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="267.14" y="16160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-1" value="线程A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-738.55" y="14475" width="86.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-3" value="本地内存A&lt;br&gt;flag = true&lt;br&gt;a = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-746.74" y="14542.5" width="104.86" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCxmSKawsDamjZFSezlN-3" target="FCxmSKawsDamjZFSezlN-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-594.7199999999999" y="14550" as="sourcePoint" />
+            <mxPoint x="-594.9399999999999" y="14510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-6" value="线程B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-543.29" y="14475" width="86.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-7" value="本地内存B&lt;br&gt;flag = false&lt;br&gt;a = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-552.4" y="14542.5" width="104.86" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCxmSKawsDamjZFSezlN-7" target="FCxmSKawsDamjZFSezlN-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-400.37999999999994" y="14550" as="sourcePoint" />
+            <mxPoint x="-400.59999999999997" y="14510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-9" value="主内存&lt;br&gt;flag = true&lt;br&gt;a = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-749.67" y="14670" width="299.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-696.37" y="14607.5" as="sourcePoint" />
+            <mxPoint x="-697" y="14670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-11" value="写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-697.2" y="14620" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-12" value="线程A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-749.4" y="14827" width="86.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-13" value="本地内存A&lt;br&gt;flag = true&lt;br&gt;a = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-757.59" y="14894.5" width="104.86" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCxmSKawsDamjZFSezlN-13" target="FCxmSKawsDamjZFSezlN-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-605.5699999999999" y="14902" as="sourcePoint" />
+            <mxPoint x="-605.79" y="14862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-15" value="线程B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-554.14" y="14827" width="86.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-16" value="本地内存B&lt;br&gt;flag = true&lt;br&gt;a = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-563.25" y="14894.5" width="104.86" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCxmSKawsDamjZFSezlN-16" target="FCxmSKawsDamjZFSezlN-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-411.22999999999996" y="14902" as="sourcePoint" />
+            <mxPoint x="-411.45" y="14862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-18" value="主内存&lt;br&gt;flag = true&lt;br&gt;a = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760.52" y="15022" width="299.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510.03000000000003" y="15022" as="sourcePoint" />
+            <mxPoint x="-509.40000000000003" y="14959.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCxmSKawsDamjZFSezlN-20" value="读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-512.9900000000001" y="14982" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
