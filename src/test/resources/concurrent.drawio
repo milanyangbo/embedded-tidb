@@ -11028,13 +11028,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7VlZwy9S4lCEiF3totVf-50" value="Mailbox" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="1480" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2010.41" y="1480" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7VlZwy9S4lCEiF3totVf-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7VlZwy9S4lCEiF3totVf-51" target="7VlZwy9S4lCEiF3totVf-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7VlZwy9S4lCEiF3totVf-51" value="isolated state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="1510" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2010.41" y="1510" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7VlZwy9S4lCEiF3totVf-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7VlZwy9S4lCEiF3totVf-53" target="7VlZwy9S4lCEiF3totVf-50">
           <mxGeometry relative="1" as="geometry" />
@@ -11073,7 +11073,7 @@
           <mxGeometry x="-1800.0000000000005" y="1510" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7VlZwy9S4lCEiF3totVf-62" value="actor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1980.3600000000006" y="1450" width="50" height="30" as="geometry" />
+          <mxGeometry x="-1990.7700000000007" y="1450" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7VlZwy9S4lCEiF3totVf-63" value="msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1900" y="1430" width="50" height="30" as="geometry" />
