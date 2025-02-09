@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="3857" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3407" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10652,6 +10652,45 @@
         </mxCell>
         <mxCell id="IK-45kcbfwKOb140DEhb-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Process&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-460.21000000000004" y="4717.5" width="69.88" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-29" value="Thread-1&lt;div&gt;Priority-6&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-932" y="4870" width="82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-30" value="Thread-1&lt;div&gt;Priority-2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-809.28" y="4870" width="82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IK-45kcbfwKOb140DEhb-31" target="IK-45kcbfwKOb140DEhb-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-31" value="处理器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-872.79" y="4950" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-33" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1020" y="5000" as="sourcePoint" />
+            <mxPoint x="-622.99" y="5000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-34" value="Thread-1&lt;div&gt;Priority-6&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1009.25" y="5010" width="82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-35" value="Pause" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-932.05" y="5015" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-37" value="Thread-1&lt;div&gt;Priority-6&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-864.5" y="5010" width="82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-38" value="Thread-1&lt;div&gt;Priority-6&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-726.52" y="5015" width="82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IK-45kcbfwKOb140DEhb-39" target="IK-45kcbfwKOb140DEhb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-39" value="处理器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-865.65" y="5090" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IK-45kcbfwKOb140DEhb-41" value="&lt;div data-version=&quot;3.0.0&quot; data-hash=&quot;face8f3f24e407e0f72317457cba5d5e&quot; style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;document&quot; style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;div data-hash=&quot;face8f3f24e407e0f72317457cba5d5e&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div class=&quot;document&quot;&gt;&lt;div class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; text-align: justify; font-family: 等线; font-size: 12pt;&quot; class=&quot;paragraph text-align-type-justify&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0pt; vertical-align: baseline;&quot; data-font-family=&quot;微软雅黑&quot;&gt;Preemptive Threads-Scheduling&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="5130" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
