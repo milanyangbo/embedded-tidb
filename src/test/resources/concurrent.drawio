@@ -12174,13 +12174,13 @@
           <mxGeometry x="-2202.5" y="3392" width="80" height="43" as="geometry" />
         </mxCell>
         <mxCell id="OVct5UHCW_gw3TKBHvvY-1" value="General 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-2266" y="3855" width="75" height="75" as="geometry" />
+          <mxGeometry x="-2266" y="3860" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OVct5UHCW_gw3TKBHvvY-2" value="General 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-2361" y="3992.5" width="75" height="75" as="geometry" />
+          <mxGeometry x="-2360" y="3992.5" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OVct5UHCW_gw3TKBHvvY-3" value="General 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-2165" y="3990" width="75" height="75" as="geometry" />
+          <mxGeometry x="-2165" y="3990" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OVct5UHCW_gw3TKBHvvY-4" value="" style="triangle;whiteSpace=wrap;html=1;flipH=1;flipV=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="-2255" y="3935" width="60" height="80" as="geometry" />
