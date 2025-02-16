@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="4549" dy="189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4981" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15431,45 +15431,60 @@
         </mxCell>
         <mxCell id="zwNnXJWraPs53E6qoCjD-118" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3340" y="3370" as="sourcePoint" />
-            <mxPoint x="-3340" y="3200" as="targetPoint" />
+            <mxPoint x="-3258.75" y="3383" as="sourcePoint" />
+            <mxPoint x="-3258.75" y="3213" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zwNnXJWraPs53E6qoCjD-119" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3361" y="3360" as="sourcePoint" />
-            <mxPoint x="-3000" y="3360" as="targetPoint" />
+            <mxPoint x="-3279.75" y="3373" as="sourcePoint" />
+            <mxPoint x="-3008.75" y="3373" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zwNnXJWraPs53E6qoCjD-120" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3240" y="3371" as="sourcePoint" />
-            <mxPoint x="-3240" y="3199.5" as="targetPoint" />
+            <mxPoint x="-3158.75" y="3384" as="sourcePoint" />
+            <mxPoint x="-3158.75" y="3212.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zwNnXJWraPs53E6qoCjD-121" value="正常处理请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-3340" y="3199.5" width="100" height="30" as="geometry" />
+          <mxGeometry x="-3258.75" y="3216" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zwNnXJWraPs53E6qoCjD-122" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3340" y="3300.5" as="sourcePoint" />
-            <mxPoint x="-3240" y="3300" as="targetPoint" />
+            <mxPoint x="-3258.75" y="3313.5" as="sourcePoint" />
+            <mxPoint x="-3158.75" y="3313" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zwNnXJWraPs53E6qoCjD-123" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3185" y="3370.5" as="sourcePoint" />
-            <mxPoint x="-3185" y="3199" as="targetPoint" />
+            <mxPoint x="-3100.51" y="3384" as="sourcePoint" />
+            <mxPoint x="-3100.51" y="3212.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zwNnXJWraPs53E6qoCjD-124" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="zwNnXJWraPs53E6qoCjD-124" value="" style="endArrow=none;html=1;rounded=0;entryX=0.941;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zwNnXJWraPs53E6qoCjD-125">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3240" y="3300" as="sourcePoint" />
-            <mxPoint x="-3190" y="3240" as="targetPoint" />
+            <mxPoint x="-3158.75" y="3313" as="sourcePoint" />
+            <mxPoint x="-3108.75" y="3253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zwNnXJWraPs53E6qoCjD-125" value="启用&lt;div&gt;等待&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;队列&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-3247.5" y="3197.5" width="70" height="40" as="geometry" />
+          <mxGeometry x="-3166.25" y="3210.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zwNnXJWraPs53E6qoCjD-126" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3101.25" y="3250.84" as="sourcePoint" />
+            <mxPoint x="-3031.25" y="3250.84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zwNnXJWraPs53E6qoCjD-127" value="开启限流&lt;div&gt;拒绝请求&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3098.75" y="3211" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zwNnXJWraPs53E6qoCjD-131" value="请求数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3053.75" y="3371" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zwNnXJWraPs53E6qoCjD-132" value="处理时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3328.63" y="3215.5" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
