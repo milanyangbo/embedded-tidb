@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="6161" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5630" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15859,6 +15859,18 @@
         </mxCell>
         <mxCell id="uwKTHKDndTDzJkJt27cw-36" value="同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="125" width="55.36" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uwKTHKDndTDzJkJt27cw-46" value="不变模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880.74" y="350" width="70.74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uwKTHKDndTDzJkJt27cw-47" value="线程本地存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-881.42" y="390" width="91.42" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uwKTHKDndTDzJkJt27cw-48" value="CAS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="430" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uwKTHKDndTDzJkJt27cw-49" value="Copy-on-Write" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-879.15" y="470" width="91.42" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
