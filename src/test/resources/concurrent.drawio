@@ -15837,7 +15837,7 @@
           <mxGeometry x="-952.5300000000001" y="35" width="79.8" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uwKTHKDndTDzJkJt27cw-34" value="Phaser" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-952.5300000000001" y="75" width="79.8" height="35" as="geometry" />
+          <mxGeometry x="-952.53" y="75" width="62.53" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uwKTHKDndTDzJkJt27cw-35" value="Exchanger" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-951.58" y="115" width="79.8" height="35" as="geometry" />
@@ -15944,8 +15944,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A4CdYuO9dwFcrtOH34fm-22" value="无锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-923.37" y="420" width="46.84" height="35" as="geometry" />
+        <mxCell id="A4CdYuO9dwFcrtOH34fm-22" value="互斥锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-923.37" y="420" width="53.37" height="35" as="geometry" />
         </mxCell>
         <mxCell id="A4CdYuO9dwFcrtOH34fm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="A4CdYuO9dwFcrtOH34fm-23" target="A4CdYuO9dwFcrtOH34fm-3">
           <mxGeometry relative="1" as="geometry" />
