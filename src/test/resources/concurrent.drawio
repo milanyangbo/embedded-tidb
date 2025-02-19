@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="6640" dy="2368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5684" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16593,6 +16593,66 @@
         </mxCell>
         <mxCell id="G9_QlPUZ1i-UNDeoUOo2-266" value="Cache Line" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1755.78" y="5807.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-282" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="-3960" y="1015" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-283" value="User Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-3947.5" y="1030.1100000000001" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-284" value="glibc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-3792.5" y="1070.1399999999999" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-285" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="-3960" y="1122.25" width="310" height="187.75" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-288" value="System Call Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-3947.5" y="1136.97" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-289" value="Process Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-3947.5" y="1177" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-290" value="Virtual File System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-3792.5" y="1177" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-291" value="Memory Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-3947.5" y="1217" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-292" value="Network Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-3792.5" y="1217" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-293" value="Arch / Device Drivers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-3947.5" y="1260" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-294" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="-3960" y="1317.5" width="310" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-295" value="Hardware Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-3947.5" y="1330" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-296" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.167;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G9_QlPUZ1i-UNDeoUOo2-283">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3900" y="1075.5" as="sourcePoint" />
+            <mxPoint x="-3900" y="1136.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-297" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3730" y="1095" as="sourcePoint" />
+            <mxPoint x="-3730" y="1139.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-299" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3730" y="1290" as="sourcePoint" />
+            <mxPoint x="-3730" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9_QlPUZ1i-UNDeoUOo2-301" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3900" y="1291" as="sourcePoint" />
+            <mxPoint x="-3900" y="1331" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
