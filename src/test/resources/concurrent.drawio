@@ -20384,13 +20384,13 @@
         <mxCell id="8b4M6zidvtLHuGVdQb2K-397" value="Topic 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5919.69" y="6000" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="8b4M6zidvtLHuGVdQb2K-398" value="Partition 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8b4M6zidvtLHuGVdQb2K-398" value="Partition 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-5710" y="5920" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="8b4M6zidvtLHuGVdQb2K-399" value="Partition 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8b4M6zidvtLHuGVdQb2K-399" value="Partition 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-5711" y="5997" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="8b4M6zidvtLHuGVdQb2K-400" value="Partition 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8b4M6zidvtLHuGVdQb2K-400" value="Partition 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-5711" y="6070" width="100" height="48" as="geometry" />
         </mxCell>
         <mxCell id="8b4M6zidvtLHuGVdQb2K-401" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
