@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="8353" dy="2081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8261" dy="2024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21255,6 +21255,98 @@
         </mxCell>
         <mxCell id="RnyReKnC_6JX8jOxQqBt-274" value="3 DMA copy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-5409.5" y="7927.25" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RnyReKnC_6JX8jOxQqBt-275" target="RnyReKnC_6JX8jOxQqBt-282">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-275" value="SQL&amp;nbsp; Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5661.929999999999" y="8255.25" width="111.73" height="76.75" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-276" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-5851.8099999999995" y="8205.25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RnyReKnC_6JX8jOxQqBt-276" target="RnyReKnC_6JX8jOxQqBt-275">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-280" value="Update employee set&lt;div&gt;designation = &#39;Consultant&#39;&lt;/div&gt;&lt;div&gt;where empid = 1&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5819.57" y="8160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-282" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5655.280000000001" y="8425.25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-284" value="Buffer Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5645.2" y="8522.25" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-286" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5605.280000000001" y="8425.25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-288" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5655.280000000001" y="8455.25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-289" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5605.280000000001" y="8455.25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-290" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5655.280000000001" y="8485.25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-291" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5605.280000000001" y="8485.25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-293" value="Required pages are copied to&lt;div&gt;the buffer cache from the disk&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5817.7" y="8358.75" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-294" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-5424.040000000001" y="8243" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-295" value="Buffer Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5413.96" y="8340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-296" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5374.040000000001" y="8243" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-297" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5424.040000000001" y="8273" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-298" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-5374.040000000001" y="8273" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-299" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5424.040000000001" y="8303" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-300" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5374.040000000001" y="8303" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-301" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5550.2" y="8475.25" as="sourcePoint" />
+            <mxPoint x="-5430.2" y="8305.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-302" value="Dirty pages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5320.05" y="8225.25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-303" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5293.99" y="8255.25" as="sourcePoint" />
+            <mxPoint x="-5339.219999999999" y="8295.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-304" value="Disk" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5405.900000000001" y="8491.25" width="87" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-305" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;curved=1;" edge="1" parent="1" source="RnyReKnC_6JX8jOxQqBt-300" target="RnyReKnC_6JX8jOxQqBt-304">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5260.55" y="8318.25" />
+              <mxPoint x="-5260.55" y="8506.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-306" value="Checkpoint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5344.150000000001" y="8395.25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-307" value="Checkpoint writes all&lt;div&gt;dirty pages to the disk&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5307.7" y="8510.25" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
