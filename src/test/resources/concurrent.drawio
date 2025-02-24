@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="8574" dy="2221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8353" dy="2081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21066,7 +21066,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RnyReKnC_6JX8jOxQqBt-200" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;" vertex="1" parent="1">
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-200" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-5978.08" y="7869.25" width="79" height="48" as="geometry" />
         </mxCell>
         <mxCell id="RnyReKnC_6JX8jOxQqBt-201" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
@@ -21130,7 +21130,7 @@
           <mxGeometry x="-5848.599999999999" y="8034.75" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RnyReKnC_6JX8jOxQqBt-224" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;NO Zero Copy&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-5896.41" y="7692.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="-5897.49" y="7700" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RnyReKnC_6JX8jOxQqBt-228" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -21176,7 +21176,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RnyReKnC_6JX8jOxQqBt-238" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;" vertex="1" parent="1">
+        <mxCell id="RnyReKnC_6JX8jOxQqBt-238" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-5556.61" y="7881.25" width="79" height="48" as="geometry" />
         </mxCell>
         <mxCell id="RnyReKnC_6JX8jOxQqBt-239" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
@@ -21227,7 +21227,7 @@
           <mxGeometry x="-5427.129999999999" y="8046.75" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RnyReKnC_6JX8jOxQqBt-256" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Zero Copy&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-5467.29" y="7697.25" width="80" height="30" as="geometry" />
+          <mxGeometry x="-5467.2699999999995" y="7703" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RnyReKnC_6JX8jOxQqBt-257" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
