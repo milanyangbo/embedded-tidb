@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="7983" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8261" dy="2024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22012,6 +22012,60 @@
         </mxCell>
         <mxCell id="4RLsGcPw58s41nTwStTT-128" value="3. Eventual&lt;div&gt;write&lt;/div&gt;&lt;div&gt;propagation&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-6122.02" y="2229.75" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-129" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6317.1" y="2472.75" width="185" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-130" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6308.160000000001" y="2487.75" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-137" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="4RLsGcPw58s41nTwStTT-131" target="4RLsGcPw58s41nTwStTT-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-138" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="4RLsGcPw58s41nTwStTT-131" target="4RLsGcPw58s41nTwStTT-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-139" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="4RLsGcPw58s41nTwStTT-131" target="4RLsGcPw58s41nTwStTT-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-131" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6337.660000000001" y="2559" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-132" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6237.660000000001" y="2456.75" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-133" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6157.1" y="2508" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-134" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6172.1" y="2606.75" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-135" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6271.660000000001" y="2631.75" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-141" value="x = 45" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6216.1" y="2426.75" width="39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-142" value="Node data incorrect&lt;div&gt;Read repair starts&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-6277.1" y="2535.25" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-143" value="x = 44" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6126.650000000001" y="2482.75" width="39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-144" value="x = 45" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6136.6" y="2626.5" width="39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-145" value="Coordinator&lt;div&gt;Node&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-6387.1" y="2597.75" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4RLsGcPw58s41nTwStTT-146" target="4RLsGcPw58s41nTwStTT-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-146" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-6487.1" y="2546.75" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RLsGcPw58s41nTwStTT-151" value="&lt;div&gt;1. Read request comes to coordinator node&lt;/div&gt;&lt;div&gt;2. Replication Factor = 3, and Consistency level set to QUOROM&lt;/div&gt;&lt;div&gt;3. For RF= 3, Quorom = 2&lt;/div&gt;&lt;div&gt;4. Coordinator nodes reads data from nodes and find node 3 data is outdated&lt;/div&gt;&lt;div&gt;5. It automatically starts read repair and updates its value&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-6472.89" y="2679.25" width="430" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
