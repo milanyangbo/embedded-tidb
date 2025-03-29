@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="3qNI4k4euscpyz2DfLMj">
-    <mxGraphModel dx="9961" dy="2024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="9683" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22729,6 +22729,99 @@
         </mxCell>
         <mxCell id="GEM6csBBuyl9Bc_0hFD_-19" value="4. timeout,&lt;div&gt;start new election&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-7236.740000000001" y="5029.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEM6csBBuyl9Bc_0hFD_-25" target="GEM6csBBuyl9Bc_0hFD_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-25" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7361.72" y="5204.5" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEM6csBBuyl9Bc_0hFD_-26" target="GEM6csBBuyl9Bc_0hFD_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEM6csBBuyl9Bc_0hFD_-26" target="GEM6csBBuyl9Bc_0hFD_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEM6csBBuyl9Bc_0hFD_-26" target="GEM6csBBuyl9Bc_0hFD_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-26" value="Leader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-7362.55" y="5332" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="GEM6csBBuyl9Bc_0hFD_-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7490" y="5440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-27" value="Follower" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-7544.55" y="5441.5" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEM6csBBuyl9Bc_0hFD_-28" target="GEM6csBBuyl9Bc_0hFD_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-28" value="Follower" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-7180" y="5442" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-33" value="1. send req" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7282.55" y="5251.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-34" value="4. respond(async)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7451.72" y="5275" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-35" value="9. respond(strong)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7450" y="5290.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-39" value="7. ack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7425" y="5397.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-40" value="4. replicate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7520" y="5352" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-41" value="9. commit req" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7525" y="5365.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-43" value="10. client got response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7379.85" y="5174.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.858;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GEM6csBBuyl9Bc_0hFD_-27" target="GEM6csBBuyl9Bc_0hFD_-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7450" y="5440" as="sourcePoint" />
+            <mxPoint x="-7422.5" y="5464.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-7450" y="5432" />
+              <mxPoint x="-7422" y="5432" />
+              <mxPoint x="-7422" y="5463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-46" value="5. append to log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7425" y="5435" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.866;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GEM6csBBuyl9Bc_0hFD_-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7267.51" y="5330" as="sourcePoint" />
+            <mxPoint x="-7252.51" y="5352" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-7267" y="5321" />
+              <mxPoint x="-7240" y="5321" />
+              <mxPoint x="-7240" y="5352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-48" value="6. call pre-commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7425" y="5450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-49" value="10. call commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7425" y="5465" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-50" value="2. append to log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7243.63" y="5302.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-51" value="3. call pre-commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7245.02" y="5315.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GEM6csBBuyl9Bc_0hFD_-52" value="8. call commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7245.02" y="5329.5" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
